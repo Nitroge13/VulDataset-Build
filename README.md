@@ -26,3 +26,5 @@
 - 输出：
     - matched_commits.json：包含匹配到的提交记录的 JSON 文件。
 - 说明：遍历 repos/ 目录中的每个仓库，在提交信息中查找符合关键词的记录并保存。
+
+4. utils.py line8 需要添加GitHub token
